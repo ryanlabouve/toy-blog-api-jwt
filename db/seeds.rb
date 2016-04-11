@@ -13,4 +13,9 @@ Post.destroy_all
     title: Faker::Lorem.sentence,
     body: Faker::Lorem.paragraphs
   )
+
+  PrivatePost.create!(
+    title: Faker::Lorem.sentence,
+    body: Faker::Lorem.paragraphs
+  )
 end
