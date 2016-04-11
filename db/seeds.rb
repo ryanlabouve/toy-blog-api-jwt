@@ -5,3 +5,12 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+#
+Post.destroy_all
+
+100.times do
+  PublicPost.create!(
+    title: Faker::Lorem.sentence,
+    body: Faker::Lorem.paragraphs
+  )
+end
