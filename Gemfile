@@ -4,6 +4,7 @@ gem 'pry-rails', :group => [:development, :test]
 
 gem 'jsonapi-resources'
 gem 'faker'
+gem 'knock'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
