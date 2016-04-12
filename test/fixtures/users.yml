@@ -1,0 +1,6 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+valid:
+  password_digest: hotdog
+  name: Lester Test
+  email: test@user.com
